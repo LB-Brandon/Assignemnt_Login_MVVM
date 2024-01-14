@@ -21,4 +21,10 @@ sealed class StringValue {
             is StringResource -> context?.getString(resId, *args).orEmpty()
         }
     }
+
+    fun isEmpty(): Boolean {
+        return this is Empty
+    }
+
+
 }

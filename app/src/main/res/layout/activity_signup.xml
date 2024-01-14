@@ -44,7 +44,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="18dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -65,14 +65,14 @@
                         android:layout_weight="1" />
 
                     <EditText
-                        android:id="@+id/et_provider"
+                        android:id="@+id/et_email_provider"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         tools:visibility="visible" />
 
                     <Spinner
-                        android:id="@+id/service_provider"
+                        android:id="@+id/sp_email_provider"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
@@ -89,7 +89,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="18dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -114,7 +114,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="18dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -138,7 +138,7 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/bt_confirm"
+        android:id="@+id/btn_confirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"

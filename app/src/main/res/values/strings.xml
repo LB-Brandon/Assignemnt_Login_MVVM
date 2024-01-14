@@ -8,11 +8,11 @@
     <string name="sign_up_email_provider_direct">직접입력</string>
     <string name="sign_up_email_error_blank">이메일을 입력해주세요.</string>
     <string name="sign_up_email_error_at">\u0040를 포함할 수 없습니다.</string>
-    <string name="sign_up_email_error_provider">서비스 제공자를 입력해주세요.</string>
-    <string name="sign_up_email_provider_error">유효한 서비스 제공자를 입력해주세요.</string>
+    <string name="sign_up_email_provider_error_blank">서비스 제공자를 입력해주세요.</string>
+    <string name="sign_up_email_provider_error_invalid">유효한 서비스 제공자를 입력해주세요.</string>
     <string name="sign_up_password">비밀번호</string>
-    <string name="sign_up_password_hint">10자리 이상, 특수문자, 대문자 포함</string>
-    <string name="sign_up_password_error_length">10자리 이상 입력해주세요.</string>
+    <string name="sign_up_password_hint">5자리 이상, 특수문자, 대문자 포함</string>
+    <string name="sign_up_password_error_length">5자리 이상 입력해주세요.</string>
     <string name="sign_up_password_error_special">특수문자를 포함시켜주세요.</string>
     <string name="sign_up_password_error_upper">대문자를 포함시켜주세요.</string>
     <string name="sign_up_password_confirm">비밀번호 확인</string>
